@@ -26,11 +26,12 @@ To preprocess the textual data, the following natural language processing techni
 
 The project utilizes the **TF-IDF (Term Frequency-Inverse Document Frequency) vectorization** technique to convert the textual data into numerical features. The **logistic regression** algorithm is then used to train a classification model.
 
-The model is evaluated using the **F1 score** and **accuracy** metrics on both the training and testing datasets.
+* The model is evaluated using the **F1 score** and **accuracy** metrics on both the training and testing datasets.
 
 * Finally, you can test the model by providing new text data and obtaining the predicted label (fake or real).
 
-  
+### Future Improvements 
+
 * Experimenting with different classification algorithms, such as support vector machines or ensemble methods, to improve prediction accuracy.
 * Incorporating additional features, such as  social network information, to provide more context for the prediction.
 * Collecting a larger and more diverse dataset to train the model, potentially reducing biases and improving generalization.
