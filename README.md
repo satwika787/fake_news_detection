@@ -1,14 +1,37 @@
-# fake_news_prediction
-This project focuses on predicting whether a news article is fake or real using machine learning techniques. It utilizes a logistic regression model with TF-IDF vectorization to classify news articles.
-## Dataset
-The dataset used for this project is obtained from the file 'train.csv.zip', which contains news articles along with their labels (fake or real).
-The following features are used for prediction:
+# Fake News Prediction
 
-Content: The combined text of the author and title of the news article.
+This project aims to predict whether a news article is real or fake using machine learning techniques. The prediction is based on the content of the news articles and uses **natural language processing techniques**.
+
+## Dataset
+
+The dataset used for this project is the training dataset in CSV format. It contains information about news articles, including their authors, titles, and labels (real or fake).
 
 ## Usage
+
 * Install the required dependencies. You can install them using the following command:
-    pip install pandas nltk scikit-learn
+    _pip install pandas nltk scikit-learn_
 * Additionally, download the necessary NLTK stopwords by running the following command:
-    nltk.download('stopwords')
-### Data Preprocessing
+    _nltk.download('stopwords')_
+
+## Natural Language Processing
+
+To preprocess the textual data, the following natural language processing techniques are applied:
+
+* Removal of special characters and non-alphabetic characters.
+* Conversion to lowercase.
+* Tokenization and stemming using the PorterStemmer algorithm.
+* Removal of stop words.
+
+## Model Training and Evaluation
+
+The project utilizes the **TF-IDF (Term Frequency-Inverse Document Frequency) vectorization** technique to convert the textual data into numerical features. The **logistic regression** algorithm is then used to train a classification model.
+
+The model is evaluated using the **F1 score** and **accuracy** metrics on both the training and testing datasets.
+
+* Finally, you can test the model by providing new text data and obtaining the predicted label (fake or real).
+
+  
+* Experimenting with different classification algorithms, such as support vector machines or ensemble methods, to improve prediction accuracy.
+* Incorporating additional features, such as  social network information, to provide more context for the prediction.
+* Collecting a larger and more diverse dataset to train the model, potentially reducing biases and improving generalization.
+
