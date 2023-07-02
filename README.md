@@ -4,7 +4,7 @@ This project aims to predict whether a news article is real or fake using machin
 
 ## Dataset
 
-The dataset used for this project is the training dataset in CSV format. It contains information about news articles, including their authors, titles, and labels (real or fake).
+The dataset used for this project is the training dataset in CSV format. It contains information about news articles, including their authors, titles, and labels (real or fake). Link to the dataset : 'https://www.kaggle.com/competitions/fake-news/data?select=train.csv'
 
 ## Usage
 
