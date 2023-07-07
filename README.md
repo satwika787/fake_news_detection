@@ -31,7 +31,6 @@ The project utilizes the **TF-IDF (Term Frequency-Inverse Document Frequency) ve
 
 ### Future Improvements 
 
-* Experimenting with different classification algorithms, such as support vector machines or ensemble methods, to improve prediction accuracy.
 * Incorporating additional features, such as  social network information, to provide more context for the prediction.
 * Collecting a larger and more diverse dataset to train the model, potentially reducing biases and improving generalization.
 
